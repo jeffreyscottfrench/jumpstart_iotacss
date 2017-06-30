@@ -41,7 +41,7 @@
     <!--build:css assets/css/tbb-styles.min.css-->
     <link rel="stylesheet" href="assets/css/tbb-styles.css" type="text/css">
     <!--endbuild-->
-{% block headinsert %}{% endblock %}
+
   </head>
 
 <body>
@@ -50,7 +50,7 @@
   <![endif]-->
 <div class="super-container">
 
-{% block splashscreen %}{% endblock %}
+
 
   <header class="wrapper clearfix">
     <div class="flex-box menu menu-top">
@@ -73,12 +73,21 @@
         </ul>
       </nav>
     </div>
-{% block menusub %}{% endblock %}
+
   </header>
 
 
-  <div class="flex-box main content {{ content_special_class }} wrapper">
-{% block content %}{% endblock %}
+  <div class="flex-box main content error-page wrapper">
+
+<div class="container-section error-box">
+  <div class="error-message">
+    <h1>Oops... that page doesn't exist anymore.</h1>
+    <p>
+      Sorry about that! Please use the above menu to find what you're looking for.
+    </p>
+  </div>
+</div>
+
   </div><!-- end content -->
 
 

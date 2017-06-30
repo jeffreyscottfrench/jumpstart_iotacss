@@ -41,7 +41,7 @@
     <!--build:css assets/css/tbb-styles.min.css-->
     <link rel="stylesheet" href="assets/css/tbb-styles.css" type="text/css">
     <!--endbuild-->
-{% block headinsert %}{% endblock %}
+
   </head>
 
 <body>
@@ -50,7 +50,7 @@
   <![endif]-->
 <div class="super-container">
 
-{% block splashscreen %}{% endblock %}
+
 
   <header class="wrapper clearfix">
     <div class="flex-box menu menu-top">
@@ -73,12 +73,22 @@
         </ul>
       </nav>
     </div>
-{% block menusub %}{% endblock %}
+
   </header>
 
 
-  <div class="flex-box main content {{ content_special_class }} wrapper">
-{% block content %}{% endblock %}
+  <div class="flex-box main content error-page wrapper">
+
+<div class="container-section error-box">
+  <div class="error-message">
+    <h1>The server has encountered an error.</h1>
+    <p>
+      Sorry about that! We're sending you back to the last page in a moment, and you can try your request again.
+    </p>
+  </div>
+</div>
+<script>setTimeout(function(){history.back();}, 5000);</script>
+
   </div><!-- end content -->
 
 

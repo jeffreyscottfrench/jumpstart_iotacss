@@ -44,7 +44,7 @@
  // var translatePath           = './languages' // Where to save the translation files.
 
 // Style related.
-var styleSRC                = './build/assets/scss/style.scss'; // Path to main .scss file.
+var styleSRC                = './build/assets/scss/tbb-styles.scss'; // Path to main .scss file.
 var styleDestination        = './build/assets/css/'; // Path to place the compiled CSS file.
 // Defualt set to root folder.
 
@@ -157,9 +157,11 @@ gulp.task( 'browser-sync', function() {
 
     // For more options
     // @link http://www.browsersync.io/docs/options/
-
+    server: {
+      baseDir: './build'
+    },
     // Project URL.
-    proxy: projectURL,
+    // proxy: projectURL,
 
     // `true` Automatically open the browser with BrowserSync live server.
     // `false` Stop the browser from automatically opening.
@@ -176,11 +178,11 @@ gulp.task( 'browser-sync', function() {
 });
 
 gulp.task('nunjucks', function(){
-  return gulp.src('build/nunjucks/pages/**/*.+(nunjucks|njk|html)')
+  return gulp.src('./build/nunjucks/pages/**/*.+(nunjucks|njk|html)')
   .pipe(nunjucksRender({
-    path: ['build/nunjucks/templates']
+    path: ['./build/nunjucks/templates']
   }))
-  .pipe(gulp.dest('build'))
+  .pipe(gulp.dest('./build'))
 });
 
 
@@ -409,7 +411,7 @@ gulp.task('build', function(){
 // });
 
 // Standard
-gulp.task( 'default', ['styles', 'vendorsJs', 'customJS', 'images', 'browser-sync'], function () {
+gulp.task( 'default', ['nunjucks', 'styles', 'vendorsJs', 'customJS', 'images', 'browser-sync'], function () {
   // Rebuild compiled html files on nunjuck file changes and reload.
   gulp.watch( projectNunjucksWatchFiles, [ 'nunjucks', reload ] );
   // Reload on SCSS file changes.

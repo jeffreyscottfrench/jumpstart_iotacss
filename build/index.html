@@ -41,7 +41,7 @@
     <!--build:css assets/css/tbb-styles.min.css-->
     <link rel="stylesheet" href="assets/css/tbb-styles.css" type="text/css">
     <!--endbuild-->
-{% block headinsert %}{% endblock %}
+
   </head>
 
 <body>
@@ -50,7 +50,7 @@
   <![endif]-->
 <div class="super-container">
 
-{% block splashscreen %}{% endblock %}
+
 
   <header class="wrapper clearfix">
     <div class="flex-box menu menu-top">
@@ -73,12 +73,18 @@
         </ul>
       </nav>
     </div>
-{% block menusub %}{% endblock %}
+
   </header>
 
 
-  <div class="flex-box main content {{ content_special_class }} wrapper">
-{% block content %}{% endblock %}
+  <div class="flex-box main content  wrapper">
+
+<div class="container-section">
+  <h1>
+    The Bitter Bottle
+  </h1>
+</div>
+
   </div><!-- end content -->
 
 
