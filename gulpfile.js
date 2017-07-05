@@ -30,8 +30,8 @@
 
  // START Editing Project Variables.
  // Project related.
- var project                 = 'thebitterbottle'; // Project Name.
- var projectURL              = 'thebitterbottle.dev'; // Project URL. Could be something like localhost:8888.
+ var project                 = 'newproject'; // Project Name.
+ var projectURL              = 'newproject.dev'; // Project URL. Could be something like localhost:8888.
  var productURL              = './'; // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
 
  // // Translation related for WP
@@ -44,7 +44,7 @@
  // var translatePath           = './languages' // Where to save the translation files.
 
 // Style related.
-var styleSRC                = './build/assets/scss/tbb-styles.scss'; // Path to main .scss file.
+var styleSRC                = './build/assets/scss/styles.scss'; // Path to main .scss file.
 var styleDestination        = './build/assets/css/'; // Path to place the compiled CSS file.
 // Defualt set to root folder.
 
