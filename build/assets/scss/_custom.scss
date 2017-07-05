@@ -1,1 +1,69 @@
 // custom styles for the client
+body {
+  background-color: $color-background;
+}
+.container {
+  box-sizing: border-box;
+}
+.super-container {
+  width: 100%;
+  @extend .container;
+  @media only screen and (min-width: $break-large) {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
+.flex-box {
+  @include flexbox;
+  & > div {
+  }
+}
+header {
+  margin-top: 20px;
+}
+footer {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.container-headerLogo {
+  display: block;
+  width: 100%;
+}
+img.logo-tbb {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+.copyright {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  color: $color-secondary;
+}
+.container-footerLogo {
+  width: 100%;
+  & .line {
+    flex: 1 1 auto;
+    width: 100%;
+    height: 2px;
+    margin: auto 0;
+    background-color: $color-secondary;
+    @media only screen and (min-width: $break-large) {
+      height: 3px;
+    }
+  }
+  & .footerLogo {
+    flex: 0 0 auto;
+    width: 25%;
+    min-width: 30px;
+    max-width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+img.logo-tbbSeal {
+  display: block;
+  width: 100%;
+}
+

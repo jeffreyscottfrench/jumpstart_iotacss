@@ -307,7 +307,7 @@ gulp.task( 'images', function() {
  gulp.src( imagesSRC )
    .pipe( imagemin( {
          progressive: true,
-         optimizationLevel: 3, // 0-7 low-high
+         optimizationLevel: 1, // 0-7 low-high
          interlaced: true,
          svgoPlugins: [{removeViewBox: false}]
        } ) )
