@@ -567,9 +567,9 @@ $include-center-block-name:   false;  // Should center block be included? (`true
 //  determine the class name of the center block class.
 // Load modules. If you do not want to use a module, comment out its `@import` statement, along with any mixin `@include`s that are part of
 // that module and marked as such below it.
-@import 'mini/core';
-@import 'mini/grid';
-@import 'mini/input_control';
+@import './node_modules/mini.css/src/mini/core';
+@import './node_modules/mini.css/src/mini/grid';
+@import './node_modules/mini.css/src/mini/input_control';
 /*
   Custom elements for forms and input elements.
 */
@@ -585,9 +585,9 @@ $include-center-block-name:   false;  // Should center block be included? (`true
   $button-style1-border-radius, $button-style1-padding, $button-style1-margin);
 @include make-button-alt-style ($button-style2-name, $button-style2-border-style,
   $button-style2-border-radius, $button-style2-padding, $button-style2-margin);
-@import 'mini/navigation';
-@import 'mini/table';
-@import 'mini/card';
+@import './node_modules/mini.css/src/mini/navigation';
+@import './node_modules/mini.css/src/mini/table';
+@import './node_modules/mini.css/src/mini/card';
 /*
   Custom elements for cards and containers.
 */
@@ -603,8 +603,8 @@ $include-center-block-name:   false;  // Should center block be included? (`true
 @include make-card-section-alt-color ($card-section-style2-name, $card-section-style2-back-color,
   $card-section-style2-fore-color);
 @include make-card-section-alt-style ($card-section-padding1-name, $card-section-padding1-padding);
-@import 'mini/tab';
-@import 'mini/contextual';
+@import './node_modules/mini.css/src/mini/tab';
+@import './node_modules/mini.css/src/mini/contextual';
 /*
   Custom contextual background elements and alerts.
 */
@@ -618,7 +618,7 @@ $include-center-block-name:   false;  // Should center block be included? (`true
   $toast-style1-border-radius, $toast-style1-padding);
 @include make-toast-alt-style($toast-style2-name, $toast-style2-border-style,
   $toast-style2-border-radius, $toast-style2-padding);
-@import 'mini/progress';
+@import './node_modules/mini.css/src/mini/progress';
 /*
   Custom elements for progress elements and spinners.
 */
@@ -631,7 +631,7 @@ $include-center-block-name:   false;  // Should center block be included? (`true
   $spinner-donut-variant2-fore-color);
 @include make-spinner-donut-alt-style ($spinner-donut-style1-name, $spinner-donut-style1-size,
   $spinner-donut-style1-border-thickness);
-@import 'mini/utility';
+@import './node_modules/mini.css/src/mini/utility';
 /*
   Custom elements for utilities and helper classes.
 */
@@ -648,4 +648,4 @@ $include-center-block-name:   false;  // Should center block be included? (`true
 /*
   Custom styles for current project.
 */
-@import "_custom.scss";
+@import "custom.scss";

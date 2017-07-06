@@ -30,8 +30,8 @@
 
  // START Editing Project Variables.
  // Project related.
- var project                 = 'newproject'; // Project Name.
- var projectURL              = 'newproject.dev'; // Project URL. Could be something like localhost:8888.
+ var project                 = 'ProjectName'; // Project Name.
+ var projectURL              = 'ProjectURLBase.dev'; // Project URL. Could be something like localhost:8888.
  var productURL              = './'; // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
 
  // // Translation related for WP
@@ -216,7 +216,7 @@ gulp.task('styles', function () {
    .pipe( sourcemaps.init( { loadMaps: true } ) )
    .pipe( autoprefixer( AUTOPREFIXER_BROWSERS ) )
 
-   .pipe( sourcemaps.write ( styleDestination ) )
+   .pipe( sourcemaps.write ( "" ) ) // gulp is already in the dest folder now.
    .pipe( lineec() ) // Consistent Line Endings for non UNIX systems.
    .pipe( gulp.dest( styleDestination ) )
 
