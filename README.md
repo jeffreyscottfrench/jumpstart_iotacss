@@ -9,7 +9,7 @@ Developed by Jeffrey Scott French with modified assets from:
 
 All rights reserved
 
-Search/Replace the following in project with examples:
+Search/Replace the following in project, examples given:
 ProjectName          --> The Bitter Bottle
 ProjectURLBase       --> thebitterbottle
 ProjectAcronym       --> tbb (used for some css selectors)
