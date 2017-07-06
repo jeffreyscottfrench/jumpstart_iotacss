@@ -7,7 +7,7 @@ Developed by Jeffrey Scott French with modified assets from:
 • Mini.css - scss framework
 • Gulp for Wordpress - gulp workflow by Ahmad Awais
 
-All rights reserved
+License: MIT or as noted by original authors.
 
 Search/Replace the following in project, examples given:
 ProjectName          --> The Bitter Bottle
