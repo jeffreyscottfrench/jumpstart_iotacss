@@ -5,5 +5,4 @@ build/fonts/*
 dist/
 node_modules/
 src/
-package.json
 etc
