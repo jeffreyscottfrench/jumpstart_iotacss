@@ -26,6 +26,11 @@ License: MIT or as noted by original authors.
 ##### Install Node Modules:
 * npm install - this installs all dev dependencies from package.json
 
+##### Optional:
+Iotacss - Clean install of IOTACSS using iotaplate:
+* Navigate to build/assets/scss in the CLI and run "iotaplate" to re-generate with latest framework updates from author and re-install node_modules assets.
+* change main.scss to \_iota_main.scss to be imported into styles.scss
+* follow docs for changing settings: https://www.iotacss.com/docs/settings/
 
 ##### Search/Replace
 Case sensitive. Replace these placeholders in your project folder, examples given:
