@@ -1,7 +1,6 @@
 *.log
 build/images/*
 build/assets/img/*
-build/fonts/*
 dist/
 node_modules/
 src/
