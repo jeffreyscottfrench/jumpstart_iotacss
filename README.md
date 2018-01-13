@@ -14,8 +14,21 @@ License: MIT or as noted by original authors.
 
 Installation Notes:
 
-Iotacss - install using iotaplate:
-- Navigate to build/assets/scss in the CLI and run "iotaplate" to re-generate with latest updates and install node_modules assets.
+
+Clone this repo:
+• git clone <this-repo> <new-name>
+• change to the new directory from above
+• create new repo on github for this project (same name as above)
+• git remote set-url origin <new-repo-on-github>
+• git push origin master <new-repo-on-github>
+
+
+Install Node Modules:
+npm install - this installs all dev dependencies from package.json and the iotacss node modules, but does not overwrite the iotacss folders in build/assets/scss.
+
+
+Iotacss - install latest version using iotaplate:
+- Navigate to build/assets/scss in the CLI and run "iotaplate" to re-generate with latest updates. ** This will overwrite any customization in iotacss contained in the Jumpstart package.
 - change main.scss to (underscore)iota_main.scss to be imported into styles.scss
 - follow docs for changing settings: https://www.iotacss.com/docs/settings/
 
