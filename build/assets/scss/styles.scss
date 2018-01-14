@@ -1,10 +1,10 @@
 /* Import partials from sass directory
 -------------------------------------------------- */
 @import
-  "variables", // define most common variables used
-  "iota_main",
-  "devUtils",
+  "variables", // define most common variables used, IOTACSS will pull as needed
+  "iota_main", // some variable options are set within the IOTACSS system
+  "devUtils", // used during deveolpment only
   "mixins", // self-curated and self-written mixins
   "social-icons", // custom social icons using entypo icon fonts
-  "custom"
+  "custom" // hyper-specific to client if needed
 ;

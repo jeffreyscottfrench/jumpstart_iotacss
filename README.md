@@ -1,4 +1,4 @@
-README
+##README
 
 
 ## Jumpstart - V1.1.0
@@ -6,6 +6,7 @@ README
 Developed by Jeffrey Scott French with modified assets from:
 * Gulp for Wordpress - gulp workflow by Ahmad Awais
 * Mixins from various authors (opensource)
+* IOTACSS Sass Framework - https://github.com/iotacss/iotacss by Dimitris Psaropoulos
 
 License: MIT or as noted by original authors.
 
@@ -22,9 +23,11 @@ License: MIT or as noted by original authors.
 * git remote set-url origin <new-repo-on-github>
 * git push origin master <new-repo-on-github>
 
+Update package.json and README with project info
 
-##### Install Node Modules:
-* npm install - this installs all dev dependencies from package.json
+#### Install Node Modules:
+* npm install - this installs all dev dependencies from package.json AND the iotacss node modules, but does not overwrite the iotacss folders in build/assets/scss.
+
 
 ##### Optional:
 Iotacss - Clean install of IOTACSS using iotaplate:
@@ -32,7 +35,7 @@ Iotacss - Clean install of IOTACSS using iotaplate:
 * change main.scss to \_iota_main.scss to be imported into styles.scss
 * follow docs for changing settings: https://www.iotacss.com/docs/settings/
 
-##### Search/Replace
+##### Search/Replace:
 Case sensitive. Replace these placeholders in your project folder, examples given:
 * ProjectName          --> The Bitter Bottle
 * ProjectURLBase       --> thebitterbottle
