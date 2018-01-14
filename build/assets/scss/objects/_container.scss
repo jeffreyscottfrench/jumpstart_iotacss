@@ -28,7 +28,10 @@ $iota-objs-container-gutter-default: $iota-global-gutter-default;
  * Type: Map
  */
 
-$iota-objs-container-gutter-extra: ();
+$iota-objs-container-gutter-extra: (
+  'gutter-x2' : $spacing * 2,
+  'gutter-x3' : $spacing * 3
+);
 
 
 /**
@@ -39,7 +42,7 @@ $iota-objs-container-gutter-extra: ();
  * Type: String / Map
  */
 
-$iota-objs-container-size-default: 1000px;
+$iota-objs-container-size-default: 1024px;
 
 
 /**
@@ -50,7 +53,10 @@ $iota-objs-container-size-default: 1000px;
  * Type: Map
  */
 
-$iota-objs-container-size-extra: ();
+$iota-objs-container-size-extra: (
+  'size-small' : 800px,
+  'size-large' : 1200px
+);
 
 
 @import 'node_modules/iotacss/objects/container';

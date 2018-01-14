@@ -1,7 +1,7 @@
 /* Import partials from sass directory
 -------------------------------------------------- */
 @import
-  "variables", // non-iotacss variables
+  "variables", // Set all variables here, passed to iotacss as needed
   "iota_main",
   "devUtils",
   "mixins", // self-curated and self-written mixins

@@ -1,0 +1,47 @@
+// $font-size is set in _variable.scss - default is 16px
+// map is (font-size, line-height)
+$type-12: (
+  null: ( $font-size * .75, $line-height * .75)
+);
+
+$type-16: (
+  null: ( $font-size * .875, $line-height * .875),
+  sm: ( $font-size, $line-height),
+  lg: ( $font-size * 1.125, $line-height * 1.125)
+);
+
+$type-20: (
+  null: ( $font-size, $line-height),
+  sm: ( $font-size * 1.25, $line-height * 1.25),
+  lg: ( $font-size * 1.5, $line-height * 1.5)
+);
+
+$type-24: (
+  null : ( $font-size * 1.25, $line-height * 1.25),
+  sm : ( $font-size * 1.5, $line-height * 1.5),
+  lg : ( $font-size * 1.625, $line-height * 1.625)
+);
+
+$type-32: (
+  null : ( $font-size * 1.5, $line-height * 1.5),
+  sm : ( $font-size * 2, $line-height * 2),
+  lg : ( $font-size * 2.25, $line-height * 2.25)
+);
+
+$type-48: (
+  null : ( $font-size * 2.5, $line-height * 2.5),
+  sm : ( $font-size * 3, $line-height * 3),
+  lg : ( $font-size * 3.25, $line-height * 3.25)
+);
+
+$type-64: (
+  null : ( $font-size * 3, $line-height * 3),
+  sm : ( $font-size * 3.5, $line-height * 3.5),
+  lg : ( $font-size * 4, $line-height * 4)
+);
+
+$type-80: (
+  null : ( $font-size * 3, $line-height * 3),
+  sm : ( $font-size * 4, $line-height * 4),
+  lg : ( $font-size * 5, $line-height * 5)
+);

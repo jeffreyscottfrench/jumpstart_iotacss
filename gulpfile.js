@@ -179,6 +179,9 @@ gulp.task( 'browser-sync', function() {
     // Use a specific port (instead of the one auto-detected by Browsersync).
     port: 3000,
 
+    // Use a specific browser or multiple browsers ("google chrome" or multiple ["firefox", "safari technology preview"] ).
+    browser: "google chrome",
+
   } );
 });
 

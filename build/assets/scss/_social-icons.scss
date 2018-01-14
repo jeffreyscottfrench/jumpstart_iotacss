@@ -62,14 +62,14 @@ $font-icon: 'Entypo-subset', sans-serif; // Icon Font
     font-family: $font-icon;
     font-size: 20px; // 20px matches facebook like button height
     line-height: 20px;
-    color: $fore-color;
+    color: $color-primary;
     @extend .entypo-subset;
     display: inline-block;
     margin: 0 5px;
     text-decoration: none;
   }
   & a.social-mail { // fix height discrepency and alignment issue
-    font-size: $base-root-font-size * 1.95;
+    font-size: $font-size * 1.95;
     vertical-align: bottom;
   }
   & a:first-child {
