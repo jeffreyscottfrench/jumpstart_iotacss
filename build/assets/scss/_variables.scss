@@ -1,14 +1,14 @@
 //variables
 
-$font-size: 16px;
-$line-height: $font-size * 1.125;
-$letter-spacing: 1px;
+$font-size: 16px; // Default size is 16px
+$line-height: $font-size * 1.25; // Default multiplier is 1.25
+$letter-spacing: 1px; // Default is 1px
 
 $font-primary: Verdana, Geneva, sans-serif; // Body
 $font-secondary: Verdana, Geneva, sans-serif; // Menus
-$font-icon: 'Entypo-subset', sans-serif; // Icons
+$font-icon: "Entypo-subset", sans-serif; // Icons
 
-$color-primary: #BBBBBB;
+$color-primary: #bbbbbb;
 $color-secondary: #666666;
 $color-terciary: #000000;
 
@@ -20,10 +20,10 @@ $break-small: 520px;
 $break-mid: 768px;
 $break-large: 1024px;
 $break-xlarge: 1146px; // 1090px content + 5% for margins
-$break-giant: 1500px;  // Excludes most laptops
-$break-max: 2000px;  // Ultra-large displays
+$break-giant: 1500px; // Excludes most laptops
+$break-max: 2000px; // Ultra-large displays
 
-$space: 20px;  // Use an even number
+$space: 20px; // Use an even number
 $space-half: $space / 2;
 $space2x: $space * 2;
 $space3x: $space * 3;
