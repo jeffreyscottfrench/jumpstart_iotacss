@@ -14,6 +14,19 @@ License: MIT or as noted by original authors.
 
 Installation Notes:
 
+
+Clone this repo:
+• git clone <this-repo> <new-name>
+• change to the new directory from above
+• create new repo on github for this project (same name as above)
+• git remote set-url origin <new-repo-on-github>
+• git push origin master <new-repo-on-github>
+
+
+Install Node Modules:
+npm install - this installs all dev dependencies from package.json
+
+
 Search/Replace (case sensitive please!) these placeholders in your project folder, examples given:
 * ProjectName          --> The Bitter Bottle
 * ProjectURLBase       --> thebitterbottle
