@@ -1,0 +1,15 @@
+// colors
+
+$color-primary: #bbbbbb;
+$color-secondary: #777777;
+$color-terciary: #333333;
+$color-black: #000000;
+$color-white: #ffffff;
+
+$colors: (
+  "primary" : $color-primary,
+  "secondary" : $color-secondary,
+  "terciary" : $color-terciary,
+  "black" : $color-black,
+  "white" : $color-white
+);
