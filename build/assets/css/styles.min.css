@@ -232,6 +232,7 @@ a{background-color:transparent;-webkit-text-decoration-skip:objects}
 .social a:last-child{margin-right:0}
 .social #fboverlay{padding-right:5px;opacity:.67;-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-ms-filter:grayscale(100%);filter:grayscale(100%)}
 .social #fboverlay:hover{opacity:1;-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-ms-filter:grayscale(100%);filter:grayscale(100%)}
+<<<<<<< HEAD
 @media screen and (min-width:520px){.o-type-16{font-size:16px;line-height:20px}
 .o-type-20{font-size:20px;line-height:25px}
 .o-type-24{font-size:24px;line-height:30px}
@@ -632,4 +633,7 @@ a{background-color:transparent;-webkit-text-decoration-skip:objects}
 .u-text-left\@mx{text-align:left !important}
 .u-text-right\@mx{text-align:right !important}
 .u-text-center\@mx{text-align:center !important}
+=======
+@media(min-width:1024px){.container-social{display:block;position:absolute;top:0;right:0;width:auto;margin:0 0 0 auto;padding-top:10px;text-align:right}
+>>>>>>> 1416399d2df8480670504d90e5c5c941b9af7070
 }
